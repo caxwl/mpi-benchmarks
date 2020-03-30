@@ -74,7 +74,7 @@ ifeq ($(origin CC),default)
 CC=mpicc
 endif
 ifeq ($(origin CXX),default)
-CXX=mpic++
+CXX=mpicxx
 endif
 override CPPFLAGS += -I.
 override CFLAGS += -O0 -Wall -Wno-long-long

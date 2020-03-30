@@ -54,7 +54,7 @@ override CFLAGS += -O3 -Wall -Wextra -pedantic -Wno-long-long
 override LDFLAGS += -lm
 
 ifeq ($(origin CC),default)
-CC=mpic++
+CC=mpicxx
 endif
 
 all: $(BINARY)
